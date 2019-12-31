@@ -1,21 +1,17 @@
 <template>
     <div class="app-wrapper">
-        <div class="main-container">
-            <div class="app-head">
-                ssssssssss
-            </div>
-            <div class="app-body">
-                <app-main/>
-            </div>
-        </div>
+        <top-bar v-if="false" />
+        <side-bar />
     </div>
 </template>
 <script>
-import { AppMain } from './components'
+import TopBar from './navMenuTopbar'
+import SideBar from './navMenuSidebar'
 export default {
     name: 'Layout',
     components: {
-        AppMain
+        TopBar,
+        SideBar
     }
 }
 </script>
