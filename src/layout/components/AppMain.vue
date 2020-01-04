@@ -13,8 +13,6 @@ export default {
     computed: {
     },
     created() {
-        // eslint-disable-next-line no-console
-        console.log(this.$route);
     }
 }
 </script>

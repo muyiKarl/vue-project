@@ -62,13 +62,18 @@
     </div>
 </template>
 <script>
+import { mapGetters } from 'vuex'
 import { AppMain } from './components'
-import { routes } from '@/router'
 
 export default {
     name: 'TopBar',
     components: {
         AppMain,
+    },
+    computed: {
+        ...mapGetters([
+            'permission_routes'
+        ]),
     },
     data() {
         return{
@@ -77,7 +82,7 @@ export default {
     },
     created() {
         // eslint-disable-next-line no-console
-        console.log(routes)
+        console.log(this.permission_routes)
     },
     methods: {
     }
