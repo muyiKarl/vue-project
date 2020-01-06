@@ -14,6 +14,9 @@ import './permission'; // router 拦截
 
 import '@/styles/index.scss'; // 引入scss全局样式
 
+// 引入阿里图标
+import '@/assets/iconfont/iconfont.js';
+
 /** 
  * 在引入 Element 时，可以传入一个全局配置对象。
  * 该对象目前支持 size 与 zIndex 字段。

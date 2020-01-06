@@ -98,3 +98,29 @@ div:focus {
 #app, .app-wrapper {
     height: 100%;
 }
+
+// iconfont   style
+.icon {
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+}
+.iconfont-size-20 {
+    font-size: 20px;
+}
+.iconfont-size-30 {
+    font-size: 30px;
+}
+
+// 插件链接样式
+.plug-in{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    font-size: 30px;
+    color: #4492eb;
+}

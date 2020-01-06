@@ -93,6 +93,7 @@ export default {
         display: flex;
         height: 100%;
         .sidebar-list{
+            flex-shrink: 0;
             ul.el-menu{
                 height: 100%;
             }
@@ -108,6 +109,7 @@ export default {
                 align-items: stretch;
                 border-bottom: 1px solid #efefef;
                 box-shadow: 0px 0px 3px #fefefe;
+                flex-shrink: 0;
                 .user-info{
                     width: 150px;
                     padding-right: 20px;
@@ -131,6 +133,7 @@ export default {
             }
             .sidebar-body{
                 height: 100%;
+                overflow: auto;
             }
         }
     }
